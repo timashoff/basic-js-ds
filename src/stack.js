@@ -23,13 +23,11 @@ class Stack {
   }
 
   pop() {
-    const result = this.stack.pop()
-    return result
+    return this.stack.pop()
   }
 
   peek() {
-    const result = this.stack.at(-1)
-    return result
+    return this.stack.at(-1)
   }
 }
 
